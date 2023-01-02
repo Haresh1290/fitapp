@@ -1,0 +1,171 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: gray;
+}
+/* Headings */
+
+.big-heading {
+  font-family: Montserrat-Bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  margin: 0 10px;
+}
+
+/* Start Buttm */
+.start-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Tittle-section */
+
+#title {
+  background-color: cadetblue;
+  color: white;
+  text-align: left;
+}
+
+#title .container-fluid{
+padding: 3% 15% 7%;
+}
+
+
+/* Tittle Image  */
+
+.first-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+}
+
+/* features-section */
+#features {
+  background-color: white;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.features-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: cornflowerblue;
+}
+
+.icon:hover {
+  color: cadetblue;
+}
+
+/* testimonials-section */
+
+#testimonials {
+  background-color: cadetblue;
+  color: white;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+/* press section  */
+#press {
+  background-color: cadetblue;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px;
+}
+
+/* pricing-sectiom */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action  */
+
+#cta {
+  background-color: cadetblue;
+  color: white;
+}
+
+/* Footer section  */
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .first-img {
+    position: static;
+    transform: rotate(0deg);
+    width: 50%;
+  }
+}
